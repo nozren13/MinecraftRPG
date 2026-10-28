@@ -7,8 +7,9 @@ class EntiteChemin(Enum):
 
 class ItemChemin(Enum):
     EQUIPEMENT = 'Data/Item/equipement.json'
-    CLE_DONJON = 'Data/Item/cle_donjon.json'
+    DONJON = 'Data/Item/donjon.json'
     OUTILS = 'Data/Item/outils.json'
+    POTION = 'Data/Item/potion.json'
 
 class JoueurChemin(Enum):
     MODEL = 'Data/Joueur/model.json'

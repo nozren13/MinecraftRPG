@@ -27,10 +27,10 @@ class JoueurCompteMixin:
         donnees = json.lire_fichier(chemin.JoueurChemin.COMPTE)
 
         #Vérification
-        if(Email not in donnees):
+        if Email not in donnees:
             return True
 
-        if(donnees[Email]['Mdp'] != Mdp):
+        if donnees[Email]['Mdp'] != Mdp:
             return True
 
         return False

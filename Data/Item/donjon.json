@@ -1,0 +1,36 @@
+{
+    "clé" : {
+        "facile" : {
+            "mobs" : {
+                "zombie" : 5,
+                "squelette" : 2
+            },
+            "recompense" : {
+                "argent" : 3500,
+                "xp" : 4860
+            }
+        },
+        "moyen" : {
+            "mobs" : {
+                "zombie" : 8,
+                "squelette" : 4,
+                "crepper" : 1
+            },
+            "recompense" : {
+                "argent" : 5230,
+                "xp" : 7560
+            }
+        },
+        "difficile" : {
+            "mobs" : {
+                "zombie" : 15,
+                "squelette" : 7,
+                "crepper" : 5
+            },
+            "recompense" : {
+                "argent" : 10860,
+                "xp" : 15640
+            }
+        }
+    }
+}

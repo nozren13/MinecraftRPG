@@ -5,16 +5,21 @@ class Item:
     def __init__(self):
         self.Equipement = json.lire_fichier(chemin.ItemChemin.EQUIPEMENT)
         self.Outils = json.lire_fichier(chemin.ItemChemin.OUTILS)
-        self.Clé_Donjon = json.lire_fichier(chemin.ItemChemin.CLE_DONJON)
+        self.Donjon = json.lire_fichier(chemin.ItemChemin.DONJON)
+        self.Potion = json.lire_fichier(chemin.ItemChemin.POTION)
 
-    def getPotion(self):
-        return self.Outils["Potion"]
+    def getItem(self, Item, Type):
+        if Item in self.Donjon:
+            return self.Donjon[Item][Type]
+        
+        elif Item in self.Equipement:
+            return self.Equipement[Item][Type]
 
-    def getEquipement(self, Equipement, Type):
-        return self.Equipement[Equipement][Type]
+        elif Item in self.Outils:
+            return self.Outils[Item][Type]
 
-    def getOutils(self, Outils, Type):
-        return self.Outils[Outils][Type]
-
-    def getCléDonjon(self, difficulté):
-        return self.Clé_Donjon[difficulté]
+        elif Item in self.Potion:
+            return self.Potion[Item][Type]
+        
+        else:
+            return None
