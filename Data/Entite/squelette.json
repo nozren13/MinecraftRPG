@@ -1,0 +1,10 @@
+{
+    "Entité" : "Squelette",
+    "Vie" : 11,
+    "Dégat" : 80,
+    "NombreAttacke" : 0,
+    "Récompense" : {
+        "Argent" : 100,
+        "Xp" : 200
+    }
+}

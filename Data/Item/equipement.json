@@ -1,0 +1,102 @@
+{
+    "Casque" : {
+        "" : {
+            "Type" : "",
+            "Durabiliter" : 0,
+            "Protection" : 0
+        },
+        "Cuir" : {
+            "Type" : "",
+            "Durabiliter" : 10,
+            "Protection" : 1,
+            "Prix " : 30
+        },
+        "Fer" : {
+            "Type" : "",
+            "Durabiliter" : 25,
+            "Protection" : 2,
+            "Prix " : 85
+        },
+        "Diamant" : {
+            "Type" : "",
+            "Durabiliter" : 50,
+            "Protection" : 3,
+            "Prix " : 160
+        }
+    },
+    "Plastron" : {
+        "" : {
+            "Type" : "",
+            "Durabiliter" : 0,
+            "Protection" : 0
+        },
+        "Cuir" : {
+            "Type" : "",
+            "Durabiliter" : 20,
+            "Protection" : 1,
+            "Prix " : 50
+        },
+        "Fer" : {
+            "Type" : "",
+            "Durabiliter" : 45,
+            "Protection" : 2,
+            "Prix " : 115
+        },
+        "Diamant" : {
+            "Type" : "",
+            "Durabiliter" : 75,
+            "Protection" : 3,
+            "Prix " : 195
+        }
+    },
+    "Jambiére" : {
+        "" : {
+            "Type" : "",
+            "Durabiliter" : 0,
+            "Protection" : 0
+        },
+        "Cuir" : {
+            "Type" : "",
+            "Durabiliter" : 30,
+            "Protection" : 1,
+            "Prix " : 45
+        },
+        "Fer" : {
+            "Type" : "",
+            "Durabiliter" : 55,
+            "Protection" : 2,
+            "Prix " : 75
+        },
+        "Diamant" : {
+            "Type" : "",
+            "Durabiliter" : 90,
+            "Protection" : 3,
+            "Prix " : 150
+        }
+    },
+    "Botte" : {
+        "" : {
+            "Type" : "",
+            "Durabiliter" : 0,
+            "Protection" : 0
+        },
+        "Cuir" : {
+            "Type" : "",
+            "Durabiliter" : 15,
+            "Protection" : 1,
+            "Prix " : 30
+        },
+        "Fer" : {
+            "Type" : "",
+            "Durabiliter" : 35,
+            "Protection" : 2,
+            "Prix " : 75
+        },
+        "Diamant" : {
+            "Type" : "",
+            "Durabiliter" : 65,
+            "Protection" : 3,
+            "Prix " : 105
+        }
+    }
+}

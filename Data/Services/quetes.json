@@ -1,0 +1,18 @@
+{
+    "Quetes1" : {
+        "Titre" : "Miner 100 de bois",
+        "Objectif" : 100,
+        "Récompenses" : {
+            "Argent" : 50,
+            "Xp" : 10
+        }
+    }, 
+    "Quetes2" : {
+        "Titre" : "Tuer 5 Zombie",
+        "Objectif" : 5,
+        "Récompenses" : {
+            "Argent" : 150,
+            "Xp" : 75 
+        }
+    }
+}

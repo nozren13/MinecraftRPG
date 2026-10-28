@@ -1,0 +1,38 @@
+{
+    "Facile" : {
+        "Mobs" : {
+            "Zombie" : 5,
+            "Squelette" : 2,
+            "Crepper" : 0
+        },
+        "Récompense" : {
+            "Argent" : 3500,
+            "Xp" : 4860
+        },
+        "Prix " : 500
+    },
+    "Moyen" : {
+        "Mobs" : {
+            "Zombie" : 8,
+            "Squelette" : 4,
+            "Crepper" : 1
+        },
+        "Récompense" : {
+            "Argent" : 5230,
+            "Xp" : 7560
+        },
+        "Prix " : 1250
+    },
+    "Difficile" : {
+            "Mobs" : {
+                "Zombie" : 15,
+                "Squelette" : 7,
+                "Crepper" : 5
+            },
+            "Récompense" : {
+                "Argent" : 10860,
+                "Xp" : 15640
+            }
+        },
+        "Prix " : 2250
+}

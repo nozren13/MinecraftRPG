@@ -1,0 +1,20 @@
+{
+    "Natha": {
+        "Epee": {
+            "Type": "",
+            "Durabiliter": 0,
+            "Attacke": 5
+        },
+        "Hache": {
+            "Type": "",
+            "Durabiliter": 0,
+            "Temps": 1
+        },
+        "Pioche": {
+            "Type": "",
+            "Durabiliter": 0,
+            "Temps": 1
+        },
+        "Potion": 0
+    }
+}

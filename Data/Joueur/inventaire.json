@@ -1,0 +1,12 @@
+{
+    "Natha": {
+        "Bois": 5,
+        "Pierre": 0,
+        "Diamant": 0,
+        "Clé_Donjon": {
+            "Facile": 0,
+            "Moyen": 0,
+            "Difficile": 0
+        }
+    }
+}

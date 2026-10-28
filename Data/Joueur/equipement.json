@@ -1,0 +1,24 @@
+{
+    "Natha": {
+        "Casque": {
+            "Type": "",
+            "Durabiliter": 0,
+            "Protection": 0
+        },
+        "Plastron": {
+            "Type": "",
+            "Durabiliter": 0,
+            "Protection": 0
+        },
+        "Jambiére": {
+            "Type": "",
+            "Durabiliter": 0,
+            "Protection": 0
+        },
+        "Botte": {
+            "Type": "",
+            "Durabiliter": 0,
+            "Protection": 0
+        }
+    }
+}

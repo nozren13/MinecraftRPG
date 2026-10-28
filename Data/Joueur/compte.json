@@ -1,0 +1,10 @@
+{
+    "Natha": {
+        "Email": "Natha",
+        "Mdp": "Python123",
+        "Argent": 100,
+        "Vie": 100,
+        "Niveau": 1,
+        "Xp": 200
+    }
+}

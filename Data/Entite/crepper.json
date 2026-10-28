@@ -1,0 +1,10 @@
+{
+    "Entité" : "Creeper",
+    "Vie" : 17,
+    "Dégat" : 120,
+    "NombreAttacke" : 1,
+    "Récompense" : {
+        "Argent" : 200,
+        "Xp" : 400
+    }
+}

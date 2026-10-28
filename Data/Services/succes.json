@@ -1,0 +1,18 @@
+{
+    "Succes1" : {
+        "Titre" : "Premier zombie tuée",
+        "Objectif" : 1,
+        "Récompenses" : {
+            "Argent" : 200,
+            "Xp" : 325
+        }
+    },
+    "Succes2": {
+        "Titre" : "100 Diamond trouvé",
+        "Objectif" : 100,
+        "Récompenses" : {
+            "Argent" : 1500,
+            "Xp" : 2035
+        }
+    }
+}

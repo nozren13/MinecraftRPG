@@ -1,0 +1,81 @@
+{
+    "Epee" : {
+        "" : {
+            "Type" : "",
+            "Durabiliter" : 0,
+            "Attacke" : 5
+        },
+        "Bois" : {
+            "Type" : "Bois",
+            "Durabiliter" : 4,
+            "Attacke" : 11,
+            "Prix " : 55
+        },
+        "Fer" : {
+            "Type" : "Fer",
+            "Durabiliter" : 10,
+            "Attacke" : 24,
+            "Prix " : 175
+        },
+        "Diamant" : {
+            "Type" : "Diamant",
+            "Durabiliter" : 23,
+            "Attacke" : 51,
+            "Prix " : 260
+        }
+    },
+    "Hache" : {
+        "" : {
+            "Type" : "",
+            "Durabiliter" : 0,
+            "Temps" : 1
+        },
+        "Bois" : {
+            "Type" : "Bois",
+            "Durabiliter" : 6,
+            "Temps" : 2,
+            "Prix " : 40
+        },
+        "Fer" : {
+            "Type" : "Fer",
+            "Durabiliter" : 14,
+            "Temps" : 8,
+            "Prix " : 135
+        },
+        "Diamant" : {
+            "Type" : "Diamant",
+            "Durabiliter" : 28,
+            "Temps" : 16,
+            "Prix " : 205
+        }
+    },
+    "Pioche" : {
+        "" : {
+            "Type" : "",
+            "Durabiliter" : 0,
+            "Temps" : 1
+        },
+        "Bois" : {
+            "Type" : "Bois",
+            "Durabiliter" : 5,
+            "Temps" : 2,
+            "Prix " : 60
+        },
+        "Fer" : {
+            "Type" : "Fer",
+            "Durabiliter" : 16,
+            "Temps" : 8,
+            "Prix " : 190
+        },
+        "Diamant" : {
+            "Type" : "Diamant",
+            "Durabiliter" : 36,
+            "Temps" : 16,
+            "Prix " : 310
+        }
+    },
+    "Potion" : {
+        "Régenartion": 60,
+        "Prix " : 105
+    }
+}

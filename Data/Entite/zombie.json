@@ -1,0 +1,10 @@
+{
+    "Entité" : "Zombie",
+    "Vie" : 8,
+    "Dégat" : 40,
+    "NombreAttacke" : 0,
+    "Récompense" : {
+        "Argent" : 50,
+        "Xp" : 100
+    }
+}

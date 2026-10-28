@@ -1,0 +1,85 @@
+{
+    "Compte" : {
+        "Email" : "Pierryck",
+        "Mdp" : "3845",
+        "Argent" : 0,
+        "Vie" : 100,
+        "Niveau" : 1,
+        "Xp" : 0
+    },
+    "Inventaire" : {
+        "Bois" : 0,
+        "Pierre" : 0,
+        "Diamant" : 0,
+        "Clé_Donjon" : {
+            "Facile" : 0,
+            "Moyen" : 0,
+            "Difficile" : 0
+        }
+    },
+    "Statistique" : {
+        "Zombie" : 0,
+        "Squelette" : 0,
+        "Creeper" : 0,
+        "Bois" : 0,
+        "Pierre" : 0,
+        "Diamant" : 0
+    },
+    "Outils" : {
+        "Epee" : {
+            "Type" : "",
+            "Durabiliter" : 0,
+            "Attacke" : 5},
+        "Hache" : {
+            "Type" : "",
+            "Durabiliter" : 0,
+            "Temps" : 1},
+        "Pioche" : {
+            "Type" : "",
+            "Durabiliter" : 0,
+            "Temps" : 1},
+        "Potion" : 0
+    },
+    "Equipement" : {
+        "Casque" : {
+            "Type" : "",
+            "Durabiliter" : 0,
+            "Protection" : 0
+        },
+        "Plastron" : {
+            "Type" : "",
+            "Durabiliter" : 0,
+            "Protection" : 0
+        },
+        "Jambiére" : {
+            "Type" : "",
+            "Durabiliter" : 0,
+            "Protection" : 0
+        },
+        "Botte" : {
+            "Type" : "",
+            "Durabiliter" : 0,
+            "Protection" : 0
+        }
+    },
+    "Succes" : {
+        "Succes1": {
+            "Progression" : 0,
+            "Reussi" : false
+        },
+        "Succes2": {
+            "Progression" : 0,
+            "Reussi" : false
+        }
+    },
+    "Quetes" : {
+        "Quetes1" : {
+            "Progression" : 0,
+            "Reussi" : false
+        },
+        "Quetes2" : {
+            "Progression" : 0,
+            "Reussi" : false
+        }
+    }
+}
