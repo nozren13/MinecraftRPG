@@ -8,20 +8,17 @@
         "Bois" : {
             "Type" : "Bois",
             "Durabiliter" : 4,
-            "Attacke" : 11,
-            "Prix " : 55
+            "Attacke" : 11
         },
         "Fer" : {
             "Type" : "Fer",
             "Durabiliter" : 10,
-            "Attacke" : 24,
-            "Prix " : 175
+            "Attacke" : 24
         },
         "Diamant" : {
             "Type" : "Diamant",
             "Durabiliter" : 23,
-            "Attacke" : 51,
-            "Prix " : 260
+            "Attacke" : 51
         }
     },
     "Hache" : {
@@ -33,20 +30,17 @@
         "Bois" : {
             "Type" : "Bois",
             "Durabiliter" : 6,
-            "Temps" : 2,
-            "Prix " : 40
+            "Temps" : 2
         },
         "Fer" : {
             "Type" : "Fer",
             "Durabiliter" : 14,
-            "Temps" : 8,
-            "Prix " : 135
+            "Temps" : 8
         },
         "Diamant" : {
             "Type" : "Diamant",
             "Durabiliter" : 28,
-            "Temps" : 16,
-            "Prix " : 205
+            "Temps" : 16
         }
     },
     "Pioche" : {
@@ -58,20 +52,17 @@
         "Bois" : {
             "Type" : "Bois",
             "Durabiliter" : 5,
-            "Temps" : 2,
-            "Prix " : 60
+            "Temps" : 2
         },
         "Fer" : {
             "Type" : "Fer",
             "Durabiliter" : 16,
-            "Temps" : 8,
-            "Prix " : 190
+            "Temps" : 8
         },
         "Diamant" : {
             "Type" : "Diamant",
             "Durabiliter" : 36,
-            "Temps" : 16,
-            "Prix " : 310
+            "Temps" : 16
         }
     },
     "Potion" : {

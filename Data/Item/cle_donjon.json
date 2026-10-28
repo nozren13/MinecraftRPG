@@ -8,8 +8,7 @@
         "Récompense" : {
             "Argent" : 3500,
             "Xp" : 4860
-        },
-        "Prix " : 500
+        }
     },
     "Moyen" : {
         "Mobs" : {
@@ -20,8 +19,7 @@
         "Récompense" : {
             "Argent" : 5230,
             "Xp" : 7560
-        },
-        "Prix " : 1250
+        }
     },
     "Difficile" : {
             "Mobs" : {
@@ -33,6 +31,5 @@
                 "Argent" : 10860,
                 "Xp" : 15640
             }
-        },
-        "Prix " : 2250
+        }
 }
