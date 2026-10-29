@@ -1,7 +1,9 @@
 from Outils import chemin, json
+from Models.JoueurMixin.progression import ProgressionMixin
 from Models.JoueurMixin.sauvergarde import SauvergardeMixin
 
-class ModificationMixin(SauvergardeMixin):
+
+class ModificationMixin(ProgressionMixin, SauvergardeMixin):
 
     def modifier_Compte(self, cle, valeur):
         self.Compte[cle] = valeur
@@ -10,10 +12,6 @@ class ModificationMixin(SauvergardeMixin):
     def modifier_inventaire(self, item, quantite):
         self.Inventaire[item] = self.Inventaire.get(item,0) + quantite
         self._sauvegarder_inventaire()
-
-    def modifier_statistique(self, stat, quantite):
-        self.Statistique[stat] += quantite
-        self._sauvegarder_statistique
 
     def modifier_outil(self, outil, type = None, durabiliter = 0):
         if(outil == "Potion"):
@@ -31,14 +29,20 @@ class ModificationMixin(SauvergardeMixin):
 
         self._sauvegarder_outil()
 
-    def modfier_equipement(self, equipement, type):
+    def modifier_equipement(self, equipement, type):
         self.Equipement[equipement] = type
-        self._sauvegarder_equipement
+        self._sauvegarder_equipement()
 
     def modifier_quete(self, quete, boolean):
-        self.Quetes[quete] = boolean
+        etat = self.Quetes.setdefault(
+            quete, {"Progression": 0, "Reussi": False}
+        )
+        etat["Reussi"] = boolean
         self._sauvegarder_quete()
 
     def modifier_succes(self, succes, boolean):
-        self.Succes[succes] = boolean
+        etat = self.Succes.setdefault(
+            succes, {"Progression": 0, "Reussi": False}
+        )
+        etat["Reussi"] = boolean
         self._sauvegarder_succes()

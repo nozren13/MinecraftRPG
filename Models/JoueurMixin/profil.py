@@ -28,9 +28,9 @@ class JoueurProfilMixin:
             "\n"
             "-Clé donjon- \n"
             "\n"
-            f"Facile : {self.Inventaire['Facile']}\n"
-            f"Moyen : {self.Inventaire['Moyen']}\n"
-            f"difficile : {self.Inventaire['Difficile']}\n"
+            f"Facile : {self.Inventaire['Clé_Donjon']['Facile']}\n"
+            f"Moyen : {self.Inventaire['Clé_Donjon']['Moyen']}\n"
+            f"Difficile : {self.Inventaire['Clé_Donjon']['Difficile']}\n"
             "\n"
         )
 
@@ -79,25 +79,28 @@ class JoueurProfilMixin:
         print(Fore.BLUE + "---Succes--- \n" + Style.RESET_ALL +"\n")
         
         for clé, succes in donneesSucces.items():
+            etat = self.Succes.get(clé, {"Progression": 0, "Reussi": False})
             print(
                 f"{succes['Titre']} : \n"
                 f" - Objectif : {succes['Objectif']} \n"
                 f" - Récompenses : {succes['Récompenses']['Argent']}€ / {succes['Récompenses']['Xp']} xp\n"
-                f" - Progression : {self.Succes[clé]['Progression']} \n"
-                f" - Reussi : {self.Succes[clé]['Reussi']} \n"
+                f" - Progression : {etat['Progression']}/{succes['Objectif']} \n"
+                f" - Réussi : {etat['Reussi']} \n"
                 "\n"
             )
 
     def getQuetes(self):
 
-        donnesQuetes = json.lire_fichier(chemin.ServiceChemin.SUCCES)
+        donnesQuetes = json.lire_fichier(chemin.ServiceChemin.QUETES)
 
+        print(Fore.BLUE + "---Quêtes--- \n" + Style.RESET_ALL + "\n")
         for clé, quetes in donnesQuetes.items():
+            etat = self.Quetes.get(clé, {"Progression": 0, "Reussi": False})
             print(
                 f"{quetes['Titre']} : \n"
                 f" - Objectif : {quetes['Objectif']} \n"
                 f" - Récompenses : {quetes['Récompenses']['Argent']}€ / {quetes['Récompenses']['Xp']} xp\n"
-                f" - Progression : {self.Quetes[clé]['Progression']} \n"
-                f" - Reussi : {self.Quetes[clé]['Reussi']} \n"
+                f" - Progression : {etat['Progression']}/{quetes['Objectif']} \n"
+                f" - Réussi : {etat['Reussi']} \n"
                 "\n"
             )

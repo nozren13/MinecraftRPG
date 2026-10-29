@@ -8,17 +8,20 @@
         "Cuir" : {
             "Type" : "",
             "Durabiliter" : 10,
-            "Protection" : 1
+            "Protection" : 1,
+            "Prix" : 25
         },
         "Fer" : {
             "Type" : "",
             "Durabiliter" : 25,
-            "Protection" : 2
+            "Protection" : 2,
+            "Prix" : 120
         },
         "Diamant" : {
             "Type" : "",
             "Durabiliter" : 50,
-            "Protection" : 3
+            "Protection" : 3,
+            "Prix" : 350
         }
     },
     "Plastron" : {
@@ -30,17 +33,20 @@
         "Cuir" : {
             "Type" : "",
             "Durabiliter" : 20,
-            "Protection" : 1
+            "Protection" : 1,
+            "Prix" : 25
         },
         "Fer" : {
             "Type" : "",
             "Durabiliter" : 45,
-            "Protection" : 2
+            "Protection" : 2,
+            "Prix" : 120
         },
         "Diamant" : {
             "Type" : "",
             "Durabiliter" : 75,
-            "Protection" : 3
+            "Protection" : 3,
+            "Prix" : 350
         }
     },
     "Jambiére" : {
@@ -52,17 +58,20 @@
         "Cuir" : {
             "Type" : "",
             "Durabiliter" : 30,
-            "Protection" : 1
+            "Protection" : 1,
+            "Prix" : 25
         },
         "Fer" : {
             "Type" : "",
             "Durabiliter" : 55,
-            "Protection" : 2
+            "Protection" : 2,
+            "Prix" : 120
         },
         "Diamant" : {
             "Type" : "",
             "Durabiliter" : 90,
-            "Protection" : 3
+            "Protection" : 3,
+            "Prix" : 350
         }
     },
     "Botte" : {
@@ -74,17 +83,20 @@
         "Cuir" : {
             "Type" : "",
             "Durabiliter" : 15,
-            "Protection" : 1
+            "Protection" : 1,
+            "Prix" : 25
         },
         "Fer" : {
             "Type" : "",
             "Durabiliter" : 35,
-            "Protection" : 2
+            "Protection" : 2,
+            "Prix" : 120
         },
         "Diamant" : {
             "Type" : "",
             "Durabiliter" : 65,
-            "Protection" : 3
+            "Protection" : 3,
+            "Prix" : 350
         }
     }
 }

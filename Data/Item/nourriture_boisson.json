@@ -1,8 +1,8 @@
 {
-    "Jetable": {
+    "Potion": {
         "Regeneration" : {
             "Régenartion": 60,
-            "Prix " : 105
+            "Prix" : 105
         }
     }
 }

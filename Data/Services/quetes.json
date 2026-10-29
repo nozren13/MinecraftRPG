@@ -1,6 +1,7 @@
 {
     "Quetes1" : {
         "Titre" : "Miner 100 de bois",
+        "Statistique" : "Bois",
         "Objectif" : 100,
         "Récompenses" : {
             "Argent" : 50,
@@ -9,6 +10,7 @@
     }, 
     "Quetes2" : {
         "Titre" : "Tuer 5 Zombie",
+        "Statistique" : "Zombie",
         "Objectif" : 5,
         "Récompenses" : {
             "Argent" : 150,

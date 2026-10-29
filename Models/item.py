@@ -6,7 +6,7 @@ class Item:
         self.Equipement = json.lire_fichier(chemin.ItemChemin.EQUIPEMENT)
         self.Outils = json.lire_fichier(chemin.ItemChemin.OUTILS)
         self.Donjon = json.lire_fichier(chemin.ItemChemin.DONJON)
-        self.Potion = json.lire_fichier(chemin.ItemChemin.POTION)
+        self.Nourriture = json.lire_fichier(chemin.ItemChemin.NOURRITURE)
 
     def getItem(self, Item, Type):
         if Item in self.Donjon:
@@ -18,8 +18,8 @@ class Item:
         elif Item in self.Outils:
             return self.Outils[Item][Type]
 
-        elif Item in self.Potion:
-            return self.Potion[Item][Type]
+        elif Item in self.Nourriture:
+            return self.Nourriture[Item][Type]
         
         else:
             return None

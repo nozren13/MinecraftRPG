@@ -12,7 +12,7 @@ class SauvergardeMixin:
         json.enregistrer_donnees(chemin.JoueurChemin.INVENTAIRE, inventaire)
 
     def _sauvegarder_statistique(self):
-        statistique = json.lire_fichier(chemin.JoueurChemin.INVENTAIRE)
+        statistique = json.lire_fichier(chemin.JoueurChemin.STATISTIQUE)
         statistique[self.Email] = self.Statistique
         json.enregistrer_donnees(chemin.JoueurChemin.STATISTIQUE, statistique)
 
@@ -33,5 +33,5 @@ class SauvergardeMixin:
 
     def _sauvegarder_succes(self):
         succes =json.lire_fichier(chemin.JoueurChemin.SUCCES)
-        succes[self.Email] = self.Quetes
+        succes[self.Email] = self.Succes
         json.enregistrer_donnees(chemin.JoueurChemin.SUCCES, succes)

@@ -9,7 +9,7 @@ class ItemChemin(Enum):
     EQUIPEMENT = 'Data/Item/equipement.json'
     DONJON = 'Data/Item/donjon.json'
     OUTILS = 'Data/Item/outils.json'
-    POTION = 'Data/Item/potion.json'
+    NOURRITURE = 'Data/Item/nourriture_boisson.json'
 
 class JoueurChemin(Enum):
     MODEL = 'Data/Joueur/model.json'
