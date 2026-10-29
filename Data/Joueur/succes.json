@@ -1,8 +1,8 @@
 {
     "Natha": {
         "Succes1": {
-            "Progression": 0,
-            "Reussi": false
+            "Progression": 1,
+            "Reussi": true
         },
         "Succes2": {
             "Progression": 0,

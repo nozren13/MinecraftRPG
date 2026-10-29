@@ -2,9 +2,9 @@
     "Natha": {
         "Email": "Natha",
         "Mdp": "Python123",
-        "Argent": 100,
+        "Argent": 1,
         "Vie": 100,
         "Niveau": 1,
-        "Xp": 200
+        "Xp": 625
     }
 }

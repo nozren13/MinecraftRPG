@@ -11,6 +11,7 @@ def menu_profil():
         f"Argent : {Session.joueur.checkCompte('Argent')} \n"
         f"Vie : {Session.joueur.checkCompte('Vie')}\n"
         f"Niveau : {Session.joueur.checkCompte('Niveau')}\n"
-        f"Xp : {Session.joueur.checkCompte('Xp')}\n"
+        f"Xp : {Session.joueur.checkCompte('Xp')}/"
+        f"{Session.joueur.xp_requis_niveau_suivant()} pour le niveau suivant\n"
         "\n"
     )

@@ -1,9 +1,9 @@
 {
     "Natha": {
         "Casque": {
-            "Type": "",
-            "Durabiliter": 0,
-            "Protection": 0
+            "Type": "Diamant",
+            "Durabiliter": 50,
+            "Protection": 3
         },
         "Plastron": {
             "Type": "",

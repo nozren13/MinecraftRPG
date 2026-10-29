@@ -13,7 +13,7 @@ class JoueurProfilMixin:
             f"Argent : {self.Compte['Argent']}\n"
             f"Vie : {self.Compte['Vie']}\n"
             f"Niveau : {self.Compte['Niveau']}\n"
-            f"Xp : {self.Compte['Xp']} \n"
+            f"Xp : {self.Compte['Xp']}/{self.xp_requis_niveau_suivant()} pour le niveau suivant\n"
         )
 
     def getInventaire(self):

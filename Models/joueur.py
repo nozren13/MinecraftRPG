@@ -16,3 +16,4 @@ class Joueur(ModificationMixin, JoueurProfilMixin, JoueurCompteMixin, JoueurChec
         self.Equipement = json.lire_fichier(chemin.JoueurChemin.EQUIPEMENT)[Email]
         self.Quetes = json.lire_fichier(chemin.JoueurChemin.QUETES)[Email]
         self.Succes = json.lire_fichier(chemin.JoueurChemin.SUCCES)[Email]
+        self._ajouter_xp(0)
